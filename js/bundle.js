@@ -354,7 +354,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field, stepInterval}) {
+function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field, stepInterval = 5000}) {
     let offset = 0,
         slideIndex = 1
 
@@ -749,7 +749,7 @@ window.addEventListener('DOMContentLoaded', () => {
         currentCounter: '#current',
         wrapper: '.offer__slider-wrapper',
         field:'.offer__slider-inner',
-        stepInterval: 5000
+        stepInterval: 6000
     })
     ;(0,_modules_tabs__WEBPACK_IMPORTED_MODULE_5__.default)('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active')
     ;(0,_modules_timer__WEBPACK_IMPORTED_MODULE_6__.default)('.timer', '2021-04-12')

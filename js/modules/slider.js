@@ -1,4 +1,4 @@
-function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field, stepInterval}) {
+function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field, stepInterval = 5000}) {
     let offset = 0,
         slideIndex = 1
 

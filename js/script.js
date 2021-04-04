@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
         currentCounter: '#current',
         wrapper: '.offer__slider-wrapper',
         field:'.offer__slider-inner',
-        stepInterval: 5000
+        stepInterval: 6000
     })
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active')
     timer('.timer', '2021-04-12')
